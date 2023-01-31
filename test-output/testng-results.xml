@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-25T21:47:36 EDT" name="Suite" finished-at="2022-08-25T21:48:07 EDT" duration-ms="31298">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.Amazon.testscripts.TestRunner@65c7a252]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-08-25T21:47:36 EDT" name="Test" finished-at="2022-08-25T21:48:07 EDT" duration-ms="31298">
+      <class name="in.Amazon.testscripts.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:in.Amazon.testscripts.TestRunner@65c7a252]" started-at="2022-08-25T21:47:36 EDT" name="setUpClass" finished-at="2022-08-25T21:47:37 EDT" duration-ms="725" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@3a37a501]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:in.Amazon.testscripts.TestRunner@65c7a252]" started-at="2022-08-25T21:47:37 EDT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-08-25T21:48:07 EDT" duration-ms="30444" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["a user should be able to purchase a mobile phone successfully on Amazon"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Purchse mobile phone funtionality"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:in.Amazon.testscripts.TestRunner@65c7a252]" started-at="2022-08-25T21:48:07 EDT" name="tearDownClass" finished-at="2022-08-25T21:48:07 EDT" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- in.Amazon.testscripts.TestRunner -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
